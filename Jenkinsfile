@@ -6,5 +6,6 @@ node {
     stage('Hello') {
         echo 'Hello World'
         sh 'ls -la .'
+        sh './hello_world.sh'
     }
 }
