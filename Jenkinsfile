@@ -7,5 +7,6 @@ node {
         echo 'Hello World'
         sh 'ls -la .'
         sh './hello_world.sh'
+        sh './build_and_run.sh'
     }
 }
